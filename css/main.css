@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 34, 226);
+    color: #fff;
+    text-wrap: 100;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wraper {
+    background: black;
+    width: 100%;    
+}
+
+.conteiner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+span {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+nav ul {
+    align-items: center;
+    padding-left: 72px;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    scale: 1.1;
+    width: 100%;
+    justify-items: auto;
+}
+
+.site {
+    padding-bottom: 150px;
+}
+
+.site h2 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 55px;
+    text-align: center;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.site p {
+    padding-left: 10%;
+    text-align: center;
+    padding-left: 10%;
+    width: 80%;
+    font-size: 30px;
+    padding-bottom: 150px;
+}
+
+.site p2 {
+    padding-left: 10%;
+    color: white;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.site ul {
+    padding-top: 50px;
+    padding-left: 10%;
+    font-size: 30px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.site ul li {
+    padding: 20px 0;
+}
+
+.game {
+    padding-bottom: 150px;
+}
+
+.game h3 {
+    color: white;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.game h4 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10%;
+}
+
+.games {
+    text-align: left;
+    max-width: 80%;
+    padding-left: 10%;
+}
+
+.games h1 {
+    color: white;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.games ul {
+    padding-top: 50px;
+    padding-left: 10%;
+    font-size: 30px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.games ul li {
+    padding: 20px 0;
+}
+
+.skrin {
+    background: url('./img/21.png') no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.skrin h3 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skrin .info {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.skrin .info .block {
+    scale: 1.2;
+    padding-block: 70px;
+    margin: 50px 2%;
+    justify-items: baseline;
+}
+
+.download {
+    padding-bottom: 500px;
+    padding-left: 35%;
+}
+
+.dad {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.download button {
+    padding-left: 500px;
+    background: aqua;
+    font-size: 40px;
+    color: white;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 8px #fff,
+    0 0 20px #fff;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: 0;
+    transition: all 500ms ease;
+}
+
+.download button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
